@@ -21,9 +21,7 @@ use chillerlan\QRCode\Common\Version;
 use chillerlan\QRCode\{QRCode, QROptions};
 use chillerlan\QRCode\Common\EccLevel;
 
-// use chillerlan\QRCode\Output\QROutputInterface;
-
-require_once(dirname(__FILE__, 3) . "/vendor/autoload.php");
+require_once(dirname(__FILE__, 2) . "/vendor/autoload.php");
 
 header("Content-Type: application/json; charset=UTF-8");
 

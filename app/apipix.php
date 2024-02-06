@@ -2,7 +2,7 @@
 
 use wilbispaulo\BRcode\BRcode;
 
-require_once(__DIR__ . "/vendor/autoload.php");
+require_once dirname(__FILE__, 2) . "/vendor/autoload.php";
 
 header("Content-Type: application/json; charset=UTF-8");
 
