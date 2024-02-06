@@ -167,16 +167,16 @@
         },
         {
             "name": "wilbispaulo/php-brcode",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wilbispaulo/php-brcode.git",
-                "reference": "fd6b140f2c0e5e0da2ebfaf30539fb95efd66e4f"
+                "reference": "fc798f0b6178bc135e355bdc32a466fbdcfe7f88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wilbispaulo/php-brcode/zipball/fd6b140f2c0e5e0da2ebfaf30539fb95efd66e4f",
-                "reference": "fd6b140f2c0e5e0da2ebfaf30539fb95efd66e4f",
+                "url": "https://api.github.com/repos/wilbispaulo/php-brcode/zipball/fc798f0b6178bc135e355bdc32a466fbdcfe7f88",
+                "reference": "fc798f0b6178bc135e355bdc32a466fbdcfe7f88",
                 "shasum": ""
             },
             "require": {
@@ -205,9 +205,9 @@
             "description": "Biblioteca de classe para geração do pix copia e cola padrão BRCODE",
             "support": {
                 "issues": "https://github.com/wilbispaulo/php-brcode/issues",
-                "source": "https://github.com/wilbispaulo/php-brcode/tree/2.1.0"
+                "source": "https://github.com/wilbispaulo/php-brcode/tree/2.1.1"
             },
-            "time": "2024-02-06T04:33:23+00:00"
+            "time": "2024-02-06T16:20:32+00:00"
         }
     ],
     "packages-dev": [],
