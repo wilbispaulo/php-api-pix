@@ -1,0 +1,22 @@
+{
+    "name": "wilbispaulo/php-api-pix",
+    "description": "Biblioteca de classes para gerar o PIX COPIA E COLA (txt) e o PIX QRCode (Base64 img).",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wilbis W. Paulo",
+            "email": "wilbispaulo@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "wilbispaulo/php-brcode": "^2.1",
+        "chillerlan/php-qrcode": "5.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}
