@@ -100,6 +100,8 @@ class ApiPix
 
     public static function createPixQRCode(string $pixTxt): array
     {
+        $pixTxt = BRcode::removeEscEsp($pixTxt);
+
         $statusCode = 200;
         $msg = 'ok';
 
