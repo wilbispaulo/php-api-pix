@@ -137,9 +137,9 @@ class ApiPix
     {
         $options = new QROptions;
         $options->version = Version::AUTO;
-        $options->eccLevel = EccLevel::H;
+        $options->eccLevel = EccLevel::M;
 
-        return (new QRCode($options))->render($txt);;
+        return (new QRCode($options))->render($txt);
     }
 
     public function getStatusCode(): int
